@@ -1,0 +1,126 @@
+.Footer{
+    margin:0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #023047;
+}
+
+.FooterInfo{
+    color: white;
+    font-family: Roboto;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px ;
+}
+
+.footerIcons{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerIcons a{
+    height: 40px;
+    margin:20px;
+}
+
+
+
+.emailFooter{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailFooter img{
+    width: 30px;
+    height: 30px;
+}
+.emailFooter p{
+    margin-left: 10px;
+    width: auto;
+    height: auto;
+}
+
+.telefonFooter{
+    
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telefonFooter img{
+    width: 30px;
+    height: 30px;
+}
+.telefonFooter p{
+    margin-left: 10px;
+    width: auto;
+    height: auto;
+}
+
+
+.createdBy{
+    height: 100%;
+    font-size:  15px;
+    width: 25%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createdBy p{
+    padding-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .footerIcons{
+        height: auto;
+        width: 20px;
+        width: 100%;
+    }
+    .footerIcons a{
+        height: 40px;
+        margin:0px;
+    }
+    .socialIcon{
+        
+        height:40px;
+        width: 40px;
+        margin:10px
+    }
+    .Footer{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .createdBy{
+        width: 100%;
+    }
+    .createdBy p{
+        width: 100%;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .FooterInfo{
+        width: 100%;
+    }
+}
